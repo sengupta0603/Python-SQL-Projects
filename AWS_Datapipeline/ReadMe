@@ -1,20 +1,20 @@
-**Automated Churn Analysis with AWS**
+## Automated Churn Analysis with AWS
 This project automates customer churn analysis using AWS services to optimize performance, reduce manual processing, and deliver real-time insights into customer retention. 
 By leveraging Apache Airflow for workflow orchestration, data ingestion through API Gateway, and real-time visualization with Amazon QuickSight, we significantly improved data processing efficiency and customer retention outcomes.
 
-**Project Overview**
+## Project Overview**
 The telecom industry faces a high monthly churn rate of 5-8%, which translates into a potential $500,000 annual revenue loss for every 1% increase in churn. 
 Additionally, over 60% of the company’s data processing is manual, leading to delays in churn analysis by 30-40%. To address these challenges, 
 I developed an AWS-based solution to automate data processing, enhance real-time insights, and enable proactive customer retention strategies.
 
-**Key Features:**
+## Key Features:**
 Automated data ingestion through API Gateway.
 Triggered AWS Glue jobs for ETL processes.
 Data stored and processed in Amazon Redshift.
 Real-time customer insights provided via Amazon QuickSight.
 Workflow orchestration and monitoring using Apache Airflow.
 
-**Technologies Used:**
+## Technologies Used:**
 AWS API Gateway – for seamless data ingestion.
 AWS Glue – for ETL (Extract, Transform, Load) operations.
 Amazon S3 – for data storage.
@@ -22,12 +22,12 @@ Amazon Redshift – for efficient data warehousing and analysis.
 Amazon QuickSight – for real-time data visualization.
 Apache Airflow – for task automation and workflow management.
 
-**Project Results:**
+## Project Results:**
 Reduced manual data processing by 60%.
 Improved churn analysis speed by 40%.
 Prevented a potential 5-10% monthly loss of at-risk customers with real-time insights.
 
-**How It Works:**
+## How It Works:**
 Data Ingestion: Data is ingested through API Gateway and stored in Amazon S3.
 ETL Process: Airflow triggers a Glue job to extract, transform, and load the data into Amazon Redshift.
 Real-Time Insights: Once the data is loaded, Amazon QuickSight provides real-time analysis and visualizations on customer churn patterns.
